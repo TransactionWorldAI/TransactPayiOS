@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A7CDAE22CDD21E5008C8717 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7CDAE12CDD21E5008C8717 /* Header.h */; };
 		1A7CDAEC2CDED8A6008C8717 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CDAEB2CDED8A6008C8717 /* Helper.swift */; };
-		1AA2A3162CD922EC0071D9B1 /* Pods_TransactPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66A33078575E40B414E58D8 /* Pods_TransactPay.framework */; };
+		1ABAE9752CE8C70300380823 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABAE9742CE8C70300380823 /* Header.h */; };
 		1AC450622CE06F080078A2C6 /* WaitingForPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC450612CE06F080078A2C6 /* WaitingForPaymentViewController.swift */; };
 		1AC450642CE0791F0078A2C6 /* BasePaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC450632CE0791F0078A2C6 /* BasePaymentController.swift */; };
 		1AC450662CE2B0730078A2C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC450652CE2B0730078A2C6 /* Extensions.swift */; };
 		1AD5B2DC2CD5303300240609 /* TransactPay.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B2DB2CD5303300240609 /* TransactPay.docc */; };
 		1AD5B2E22CD5303400240609 /* TransactPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5B2D72CD5303300240609 /* TransactPay.framework */; };
 		1AD5B2E72CD5303400240609 /* TransactPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B2E62CD5303400240609 /* TransactPayTests.swift */; };
-		1AD5B2E82CD5303400240609 /* TransactPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD5B2DA2CD5303300240609 /* TransactPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AD5B2FB2CD530B900240609 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B2F12CD530B900240609 /* NetworkService.swift */; };
 		1AD5B2FC2CD530B900240609 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B2F22CD530B900240609 /* CardDetailsViewController.swift */; };
 		1AD5B2FD2CD530B900240609 /* PaymentOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B2F32CD530B900240609 /* PaymentOptionsViewController.swift */; };
@@ -29,7 +27,6 @@
 		1AD5B3042CD530B900240609 /* PayOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B2FA2CD530B900240609 /* PayOrder.swift */; };
 		1AD5B3062CD5349E00240609 /* TransactPayNetworkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5B3052CD5349E00240609 /* TransactPayNetworkable.swift */; };
 		1AFD503C2CD645E6005B240E /* TransactPayAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD503B2CD645E6005B240E /* TransactPayAPI.swift */; };
-		DCA8A8941EE76137FB18AACA /* Pods_TransactPay_TransactPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF13B235A3F2A2736CC8EFC6 /* Pods_TransactPay_TransactPayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13EF0E0E5D660147DDFCB676 /* Pods-TransactPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactPay.release.xcconfig"; path = "Target Support Files/Pods-TransactPay/Pods-TransactPay.release.xcconfig"; sourceTree = "<group>"; };
-		1A7CDAE12CDD21E5008C8717 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		1A7CDAEB2CDED8A6008C8717 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1ABAE9742CE8C70300380823 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		1AC450612CE06F080078A2C6 /* WaitingForPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingForPaymentViewController.swift; sourceTree = "<group>"; };
 		1AC450632CE0791F0078A2C6 /* BasePaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePaymentController.swift; sourceTree = "<group>"; };
 		1AC450652CE2B0730078A2C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -65,12 +61,8 @@
 		1AD5B2F92CD530B900240609 /* NetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequest.swift; sourceTree = "<group>"; };
 		1AD5B2FA2CD530B900240609 /* PayOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOrder.swift; sourceTree = "<group>"; };
 		1AD5B3052CD5349E00240609 /* TransactPayNetworkable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactPayNetworkable.swift; sourceTree = "<group>"; };
+		1AEA2DAB2D04194C00C3E3A9 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1AFD503B2CD645E6005B240E /* TransactPayAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactPayAPI.swift; sourceTree = "<group>"; };
-		3280EF2006D8FFCF40226B37 /* Pods-TransactPay-TransactPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactPay-TransactPayTests.debug.xcconfig"; path = "Target Support Files/Pods-TransactPay-TransactPayTests/Pods-TransactPay-TransactPayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		56F044005CD95166DC409328 /* Pods-TransactPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactPay.debug.xcconfig"; path = "Target Support Files/Pods-TransactPay/Pods-TransactPay.debug.xcconfig"; sourceTree = "<group>"; };
-		9069FC86E22C22EE9FE7D5FB /* Pods-TransactPay-TransactPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactPay-TransactPayTests.release.xcconfig"; path = "Target Support Files/Pods-TransactPay-TransactPayTests/Pods-TransactPay-TransactPayTests.release.xcconfig"; sourceTree = "<group>"; };
-		CF13B235A3F2A2736CC8EFC6 /* Pods_TransactPay_TransactPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactPay_TransactPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F66A33078575E40B414E58D8 /* Pods_TransactPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA2A3162CD922EC0071D9B1 /* Pods_TransactPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD5B2E22CD5303400240609 /* TransactPay.framework in Frameworks */,
-				DCA8A8941EE76137FB18AACA /* Pods_TransactPay_TransactPayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,11 +94,10 @@
 		1AD5B2CD2CD5303300240609 = {
 			isa = PBXGroup;
 			children = (
+				1AEA2DAB2D04194C00C3E3A9 /* Package.swift */,
 				1AD5B2D92CD5303300240609 /* TransactPay */,
 				1AD5B2E52CD5303400240609 /* TransactPayTests */,
 				1AD5B2D82CD5303300240609 /* Products */,
-				C8C7631DB4DA9645ABC71B09 /* Pods */,
-				FF525200A28999A2F397D574 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,8 +125,8 @@
 				1AD5B2F32CD530B900240609 /* PaymentOptionsViewController.swift */,
 				1AD5B2F62CD530B900240609 /* PaymentViewController.swift */,
 				1AC450612CE06F080078A2C6 /* WaitingForPaymentViewController.swift */,
+				1ABAE9742CE8C70300380823 /* Header.h */,
 				1AC450632CE0791F0078A2C6 /* BasePaymentController.swift */,
-				1A7CDAE12CDD21E5008C8717 /* Header.h */,
 				1AD5B2FA2CD530B900240609 /* PayOrder.swift */,
 				1AFD503B2CD645E6005B240E /* TransactPayAPI.swift */,
 				1AC450652CE2B0730078A2C6 /* Extensions.swift */,
@@ -156,26 +145,6 @@
 			path = TransactPayTests;
 			sourceTree = "<group>";
 		};
-		C8C7631DB4DA9645ABC71B09 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				56F044005CD95166DC409328 /* Pods-TransactPay.debug.xcconfig */,
-				13EF0E0E5D660147DDFCB676 /* Pods-TransactPay.release.xcconfig */,
-				3280EF2006D8FFCF40226B37 /* Pods-TransactPay-TransactPayTests.debug.xcconfig */,
-				9069FC86E22C22EE9FE7D5FB /* Pods-TransactPay-TransactPayTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		FF525200A28999A2F397D574 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F66A33078575E40B414E58D8 /* Pods_TransactPay.framework */,
-				CF13B235A3F2A2736CC8EFC6 /* Pods_TransactPay_TransactPayTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -183,8 +152,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD5B2E82CD5303400240609 /* TransactPay.h in Headers */,
-				1A7CDAE22CDD21E5008C8717 /* Header.h in Headers */,
+				1ABAE9752CE8C70300380823 /* Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +163,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD5B2EB2CD5303400240609 /* Build configuration list for PBXNativeTarget "TransactPay" */;
 			buildPhases = (
-				195380F890BB388401A75133 /* [CP] Check Pods Manifest.lock */,
 				1AD5B2D22CD5303300240609 /* Headers */,
 				1AD5B2D32CD5303300240609 /* Sources */,
 				1AD5B2D42CD5303300240609 /* Frameworks */,
@@ -214,11 +181,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD5B2EE2CD5303400240609 /* Build configuration list for PBXNativeTarget "TransactPayTests" */;
 			buildPhases = (
-				3165E1237F31A066608316CD /* [CP] Check Pods Manifest.lock */,
 				1AD5B2DD2CD5303400240609 /* Sources */,
 				1AD5B2DE2CD5303400240609 /* Frameworks */,
 				1AD5B2DF2CD5303400240609 /* Resources */,
-				66E08E503039F543DEAE00C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,70 +248,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		195380F890BB388401A75133 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TransactPay-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3165E1237F31A066608316CD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TransactPay-TransactPayTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66E08E503039F543DEAE00C5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TransactPay-TransactPayTests/Pods-TransactPay-TransactPayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TransactPay-TransactPayTests/Pods-TransactPay-TransactPayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TransactPay-TransactPayTests/Pods-TransactPay-TransactPayTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AD5B2D32CD5303300240609 /* Sources */ = {
@@ -519,7 +420,6 @@
 		};
 		1AD5B2EC2CD5303400240609 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F044005CD95166DC409328 /* Pods-TransactPay.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,7 +446,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "TransactPay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -554,7 +453,6 @@
 		};
 		1AD5B2ED2CD5303400240609 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13EF0E0E5D660147DDFCB676 /* Pods-TransactPay.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,7 +479,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "TransactPay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -589,7 +486,6 @@
 		};
 		1AD5B2EF2CD5303400240609 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3280EF2006D8FFCF40226B37 /* Pods-TransactPay-TransactPayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -607,7 +503,6 @@
 		};
 		1AD5B2F02CD5303400240609 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9069FC86E22C22EE9FE7D5FB /* Pods-TransactPay-TransactPayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftyRSA
+//import SwiftyRSA
 
 class Encrypter {
 
